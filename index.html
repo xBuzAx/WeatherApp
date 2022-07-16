@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container">
+    <div class="weather-app">
+        <h1>WEATHER APP</h1>
+        <div class="data">
+            <h3>TODAY</h3>
+            <h6 class="data-today"></h6>
+        </div>
+        <div class="weather">
+            <div class="city">
+                <h2 class="name-city"></h2>
+                <div>
+                    <input class="weather-input" type="text" placeholder="Podaj nazwe miasta">
+                    <button class="button-city">Wyślij</button>
+                </div>
+                <span class="warning"></span>
+            </div>
+            <figure>
+                <img class="weather-img" src="" alt="Lorem ipsum">
+            </figure>
+        </div>
+        <div class="weather-information">
+            <div>
+                <h3>WEATHER:</h3>
+                <p class="weather-type"></p>
+            </div>
+            <div>
+                <h3>TEMPERATURE:</h3>
+                <p class="weather-temperature"></p>
+            </div>
+            <div>
+                <h3>HUMIDITY:</h3>
+                <p class="weather-humidity">41%</p>
+            </div>
+        </div>
+    </div>
+   </div>
+    <script src="./app.js"></script>
+</body>
+</html>
