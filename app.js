@@ -16,7 +16,7 @@ const API_UNITS = "&units=metric";
 
 const data = new Date()
 const day = data.getDate()
-const month = data.getMonth()
+const month = data.getMonth().toString().padStart(2, '0')
 const year = data.getFullYear()
 dataToday.textContent = `${day} / ${month} / ${year}`
 
